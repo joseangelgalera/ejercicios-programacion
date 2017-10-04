@@ -8,13 +8,13 @@ Ejercicios de la asignatura Programación de **1º DAM (Desarrollo de apliacione
 * Git y Github :octocat:
 * Lenguaje Java :coffee:: variables, bucles, POO, etc. 
 
-## Bibliografía
+## :books: Bibliografía
 
 <img src="Imagenes/aprendejava.jpeg" width="320px">
 
 [Aprende Java con Ejercicios](https://leanpub.com/aprendejava)
 
-## :books: Enlaces de interés
+## Enlaces de interés
 
 * [Página oficial del IES Campanillas](http://iescampanillas.com/)
 
