@@ -12,10 +12,10 @@
 
 public class Ejercicio4 {
 	public static void main (String args[]) {
-    int euro = 5;
+    int euros = 5;
     double pesetas =(5*166.386);
     
-    System.out.print(euro +" euros son "+ pesetas +" pesetas");
+    System.out.print(euros +" euros son "+ pesetas +" pesetas");
 	}
 }
 
