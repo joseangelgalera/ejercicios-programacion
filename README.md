@@ -10,4 +10,4 @@ Ejercicios de la asignatura Programación de **1º DAM (Desarrollo de apliacione
 
 ## Bibliografía
 
-![Aprende Java con Ejercicios](imagenes/aprendejava.jpeg)
+<img src="imagenes/aprendejava.jpeg" width="320px">
