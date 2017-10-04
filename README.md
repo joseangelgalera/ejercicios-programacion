@@ -6,7 +6,7 @@ Ejercicios de la asignatura Programación de **1º DAM (Desarrollo de apliacione
 
 * Comandos de Linux :penguin:
 * Git y Github :octocat:
-* Lenguaje Java :coffe:: variables, bucles, POO, etc. 
+* Lenguaje Java :coffee:: variables, bucles, POO, etc. 
 
 ## Bibliografía
 
@@ -14,7 +14,7 @@ Ejercicios de la asignatura Programación de **1º DAM (Desarrollo de apliacione
 
 [Aprende Java con Ejercicios](https://leanpub.com/aprendejava)
 
-## Enlaces de interés
+## :books: Enlaces de interés
 
 * [Página oficial del IES Campanillas](http://iescampanillas.com/)
 
