@@ -13,3 +13,9 @@ Ejercicios de la asignatura Programación de **1º DAM (Desarrollo de apliacione
 <img src="Imagenes/aprendejava.jpeg" width="320px">
 
 [Aprende Java con Ejercicios](https://leanpub.com/aprendejava)
+
+## Enlaces de interés
+
+*[Página oficial del IES CAmpanillas](http://iescampanillas.com/)
+
+*[Guia de la asignatura Programación](https://github.com/LuisJoseSanchez/programacion)
