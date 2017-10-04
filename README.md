@@ -8,6 +8,6 @@ Ejercicios de la asignatura Programación de **1º DAM (Desarrollo de apliacione
 * Git y Github
 * Lenguaje Java: variables, bucles, POO, etc.
 
-## BIbliografía
+## Bibliografía
 
 ![Aprende Java con Ejercicios](imagenes/aprendejava.jpeg)
