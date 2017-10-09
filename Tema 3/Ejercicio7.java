@@ -14,7 +14,7 @@ public class Ejercicio7 {
     
     String linea;
     
-    System.out.print("Introducuzca base imponible : ");
+    System.out.print("Introduzca base imponible : ");
     linea = System.console().readLine();
     double baseImponible = Double.parseDouble( linea );
     

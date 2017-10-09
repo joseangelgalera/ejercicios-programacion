@@ -14,7 +14,7 @@ public class Ejercicio8 {
     
     String linea;
     
-    System.out.print("Introduce las horas ");
+    System.out.print("Introduce las horas : ");
     linea = System.console().readLine();
     double horasTrabajadas = Double.parseDouble( linea );
     
