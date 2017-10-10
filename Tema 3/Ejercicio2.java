@@ -20,7 +20,7 @@ public class Ejercicio2 {
     
     double pesetas = (euros * 166.386);
     
-    System.out.print(euros + " euros son " +  pesetas + " pesetas.");
+    System.out.print(euros + " euros son " + pesetas + " pesetas.");
   }
 }
 
