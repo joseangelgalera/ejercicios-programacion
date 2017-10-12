@@ -18,7 +18,8 @@ public class Ejercicio8 {
     linea = System.console().readLine();
     double horasTrabajadas = Double.parseDouble( linea );
     
-    System.out.printf("Esta semana su sueldo es de %1.2f", (horasTrabajadas * 12));
+    System.out.printf("Esta semana su sueldo es de %1.2f", +
+    (horasTrabajadas * 12));
   }
 }
 
