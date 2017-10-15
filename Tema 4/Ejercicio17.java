@@ -16,7 +16,7 @@ public class Ejercicio17 {
     
     System.out.print("Introduzca un número entero : ");
     int numeroEntero = s.nextInt();
-    System.out.print("El ultimo numero es " + (numeroEntero % 10));
+    System.out.print("El último número es " + (numeroEntero % 10));
   }
 }
 
