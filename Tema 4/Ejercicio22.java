@@ -52,7 +52,7 @@ public class Ejercicio22 {
     System.out.print("Introduzca los minutos : ");
     int minutos = s.nextInt();
     
-    int minutosTotales = (4 * 24 * 60) + (15 * 60);
+    int minutosTotales = (5 * 24 * 60) + (15 * 60);
     int minutosActuales = (numDia * 24 * 60) + (hora * 60) + minutos;
     
     System.out.print("Faltan " + (minutosTotales - minutosActuales) + 
