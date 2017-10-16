@@ -34,9 +34,9 @@ public class Ejercicio21 {
     if (notaFinal < 5) {
       System.out.print("¿Cuál ha sido el resultado de la recuperación?");
       System.out.print(" (apto/no apto) : ");
-      String recu = s.nextLine();
+      String recu = s.next();
       if (recu.equals("apto")) {
-        System.out.print("Tu nota trimestral de Programación es un 5");
+        notaFinal = 5;
       }
     }
       
