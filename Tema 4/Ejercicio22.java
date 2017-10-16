@@ -26,23 +26,23 @@ public class Ejercicio22 {
     
     switch (dia) {
       case "lunes":
-        numDia = 1;
+        numDia = 0;
         break;
       
       case "martes":
-        numDia = 2;
+        numDia = 1;
         break;
       
       case "miercoles":
-        numDia = 3;
+        numDia = 2;
         break;
       
       case "jueves":
-        numDia = 4;
+        numDia = 3;
         break;
       
       case "viernes":
-        numDia = 5;
+        numDia = 4;
         break;
     }
     
@@ -52,7 +52,7 @@ public class Ejercicio22 {
     System.out.print("Introduzca los minutos : ");
     int minutos = s.nextInt();
     
-    int minutosTotales = (5 * 24 * 60) + (15 * 60);
+    int minutosTotales = (4 * 24 * 60) + (15 * 60);
     int minutosActuales = (numDia * 24 * 60) + (hora * 60) + minutos;
     
     System.out.print("Faltan " + (minutosTotales - minutosActuales) + 
