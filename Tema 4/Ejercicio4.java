@@ -21,12 +21,12 @@ public class Ejercicio4 {
     int horasTrabajadas = s.nextInt();
     
     if (horasTrabajadas <= 40) {
-      System.out.printf("Esta semana su sueldo es de %d", +
+      System.out.printf("Esta semana su sueldo es de %d€.", +
       (horasTrabajadas * 12));
     }
       
     if (horasTrabajadas >= 41) {
-      System.out.printf("Esta semana su sueldo es de %d", +
+      System.out.printf("Esta semana su sueldo es de %d€.", +
       (horasTrabajadas * 16));
     }
   }
