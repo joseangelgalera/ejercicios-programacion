@@ -50,12 +50,11 @@ public class Ejercicio9 {
     }
     
     if ((a != 0) && (b == 0) && (c == 0)) {
-      System.out.printf("La solucion es x = %.2f y x = %.2f.", Math.sqrt(a), 
-      + (-Math.sqrt(a)));
+      System.out.printf("No tiene solución");
     }
     
-    if ((a == 0) && (b != 0) && (c != 0)) {
-      System.out.printf("La solución es x = %.2f.", b);
+    if ((a == 0) && (b != 0) && (c == 0)) {
+      System.out.print("No tiene solucíon");
     }
     
     if ((a == 0) && (b == 0) && (c != 0)) {
