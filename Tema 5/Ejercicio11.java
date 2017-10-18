@@ -17,8 +17,8 @@ public class Ejercicio11 {
     System.out.print("Introduzca un número entero : ");
     int x = s.nextInt();
     
-      System.out.println("Número    Cuadrado    Cubo");
-      System.out.println("------------------------------");
+    System.out.println("Número    Cuadrado    Cubo");
+    System.out.println("------------------------------");
     
     for ( int i = x; i < x + 5; i++) {
       System.out.printf(" %2d      %5d        %2d\n", i, i * i, i * i * i);
