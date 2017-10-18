@@ -69,6 +69,7 @@ public class Ejercicio15 {
       System.out.println(" " + c + c);
       System.out.print(" " + c);
       break;
+      default:
     }
   }
 }
