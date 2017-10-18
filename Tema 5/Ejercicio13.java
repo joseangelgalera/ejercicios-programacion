@@ -27,6 +27,6 @@ public class Ejercicio13 {
     }
     
     System.out.print("Ha introducido " + n + " numeros negativos y " + 
-      p + " numeros positivos");
+      p + " numeros positivos.");
   }
 }
