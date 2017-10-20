@@ -12,7 +12,7 @@
 public class Ejercicio6 {
   public static void main (String args[]) {
     
-    int i = 320;
+    int i = 120;
     
     do {
       System.out.println(i);
