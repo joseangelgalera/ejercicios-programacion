@@ -19,27 +19,33 @@ public class Ejercicio7 {
     
     System.out.println("¿Puedes adivinar la combinación?");
     System.out.println("Introduzca los 4 numeros de la combinación : ");
-    int combinacion = s.nextInt();
-      
-    if (combinacion == 8357) {
-      System.out.print("La caja fuerte se ha abierto satisfactoriamente");
-    }
     
-    int i = 0;
     int contador = 4;
+    int combinacion = 0;
     
-    while (combinacion != 8357) {
-      contador --;
-      if (contador == 0) {
-        System.out.print("Lo siento, esa no es la combinación");
+    while (contador > 0) {
+      combinacion = s.nextInt();
+      
+      if (combinacion == 8357) {
+      System.out.print("La caja fuerte se ha abierto satisfactoriamente.");
       }
-    }
-      System.out.println("Intentelo de nuevo");
       
-    
-      
-    
-    
+      if  (combinacion != 8357) 
+      System.out.println("Intentelo de nuevo.");
+      contador--;
+      if (contador == 0) {
+        System.out.println("La caja fuerte se ha cerrado.");
+      }
+    } 
   }
 }
+    
+      
+      
+    
+      
+    
+    
+  
+
 
