@@ -24,7 +24,7 @@ public class Ejercicio10 {
     double suma = 0;
     
     while (numero >= 0) {
-       numero = s.nextInt();
+      numero = s.nextInt();
       contador++;
       suma += numero;
     }
