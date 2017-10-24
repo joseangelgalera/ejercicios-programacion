@@ -16,7 +16,7 @@ public class Ejercicio23 {
   public static void main (String args[]) {
     Scanner s = new Scanner(System.in);
     
-    System.out.println("Introduzca los números.");
+    System.out.println("Introduzca los números");
     System.out.print("El programa terminará cuando la suma de los");
     System.out.println(" números sea mayor que 10000.");
     

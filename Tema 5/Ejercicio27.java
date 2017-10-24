@@ -14,7 +14,7 @@ public class Ejercicio27 {
   public static void main (String args[]) {
     Scanner s = new Scanner(System.in);
     
-    System.out.print("Introduzca un número entero mayor que 1: ");
+    System.out.print("Introduzca un número entero mayor que 1 : ");
     int numeroInt = s.nextInt();
 
     int cuenta = 0;
