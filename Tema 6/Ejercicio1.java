@@ -12,14 +12,14 @@
 public class Ejercicio1 {
   public static void main (String[] args) {
     System.out.println("¿Cúal es el resultado de la tirada?");
-    int total;
-    int suma = 0;
+    int numeros;
+    int total = 0;
     for (int i = 1 ; i <= 3 ; i++) {
-      total =((int)(Math.random() * 6 + 1));
+      numeros =((int)(Math.random() * 6 + 1));
       System.out.println(total + " ");
-      suma += total;
+      total += numeros;
     }
-      System.out.print("El total de los resultados obtenidos es " + suma);
+      System.out.print("El total de los resultados obtenidos es " + total);
   }
 }
 
