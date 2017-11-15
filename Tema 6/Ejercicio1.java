@@ -11,7 +11,7 @@
 
 public class Ejercicio1 {
   public static void main (String[] args) {
-    System.out.println("¿Cúal es el resultado de la tirada?");
+    System.out.println("¿Cual es el resultado de la tirada?");
     int numeros;
     int total = 0;
     for (int i = 1 ; i <= 3 ; i++) {
