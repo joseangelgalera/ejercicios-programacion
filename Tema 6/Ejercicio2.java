@@ -37,6 +37,7 @@ public class Ejercicio2 {
       case 4:
         palo = "tréboles";
         break;
+        default:
     }
     
     int numeroCarta = (int)(Math.random() * 13) + 1;

@@ -34,6 +34,7 @@ public class Ejercicio3 {
       case 4:
         palo = "bastos";
         break;
+      default:
     }
     
     int numeroCarta = (int)(Math.random() * 10) + 1;
