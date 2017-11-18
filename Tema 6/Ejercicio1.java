@@ -16,7 +16,7 @@ public class Ejercicio1 {
     int total = 0;
     for (int i = 1 ; i <= 3 ; i++) {
       numeros =((int)(Math.random() * 6 + 1));
-      System.out.println(total + " ");
+      System.out.println(numeros + " ");
       total += numeros;
     }
       System.out.print("El total de los resultados obtenidos es " + total);
