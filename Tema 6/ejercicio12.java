@@ -12,7 +12,6 @@
 public class ejercicio12 {
 
     public static void main(String[] args)throws InterruptedException {
-      final String ANSI_GREEN = "\u001B[32m";
         int i = 0;
         int linea = 0;
         
