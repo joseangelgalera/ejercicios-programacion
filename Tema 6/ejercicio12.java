@@ -11,9 +11,12 @@
 
 public class ejercicio12 {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args)throws InterruptedException {
+      final String ANSI_GREEN = "\u001B[32m";
         int i = 0;
         int linea = 0;
+        
+        System.out.print("\033[32m");
         
         while (i <= 9000){
           

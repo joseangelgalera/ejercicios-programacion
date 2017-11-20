@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class Ejercicio6 {
 
     public static void main(String[] args) {
-         Scanner s = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         System.out.println("¿Puedes adviniar el numero?");
 
         int numero = 0;
