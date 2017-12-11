@@ -14,7 +14,8 @@ import java.util.Scanner;
 
 public class Ejercicio2 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+            throws InterruptedException {
         Scanner s = new Scanner(System.in);
 
         int[][] num = new int[4][5];
@@ -38,11 +39,12 @@ public class Ejercicio2 {
                 sumaFila += num[fila][columna];
             }
             System.out.printf("|%7d\n", sumaFila);
+            Thread.sleep(500);
         }
 
         for (columna = 0; columna < 5; columna++) {
             System.out.print("----------");
-        }
+         }
         System.out.println("-----------");
 
         int sumaColumna;
@@ -55,10 +57,9 @@ public class Ejercicio2 {
 
             sumaTotal += sumaColumna;
             System.out.printf("%7d   ", sumaColumna);
+            Thread.sleep(500);
         }
         System.out.printf("|%7d   ", sumaTotal);
+        Thread.sleep(500);
     }
 }
-
-
-
