@@ -14,7 +14,18 @@ public class Tema08Ejercicios1a14 {
         Scanner s = new Scanner(System.in);
         System.out.print("Introduzca un numero: ");
         int x = s.nextInt();
-
+        System.out.print("Introduzca la posicion del numero que busca: ");
+        int posicion = s.nextInt();
+        System.out.print("Introduzca el digito del que desea obtener la "
+                + "posicion: ");
+        int n = s.nextInt();
+        System.out.print("Introduzca cuantos digitos desea quitar al numero por"
+                + " detras: ");
+        int dMenosDetras = s.nextInt();
+        System.out.print("Introduzca cuantos digitos desea quitar al numero por"
+                + " delante");
+        int dMenosDelante = s.nextInt();
+        
         if (Varios.esCapicua(x)) {
             System.out.println("El " + x + " es capicua.");
         } else {
@@ -41,6 +52,15 @@ public class Tema08Ejercicios1a14 {
         System.out.println("El numero " + x + " al reves es el numero "
                 + Varios.voltea(x) + ".");
 
+        System.out.println("En la posicion " + posicion + " esta el numero "
+                + Varios.digitoN(x, posicion) + ".");
+
+        System.out.println("El digito " + n + " esta en la posicion "
+                + Varios.posicionDeDigito(x, n) + ".");
+        
+        System.out.println("Al quitarle " + dMenosDetras + " por detras el numero "
+                + "resultante es " + Varios.quitaPorDetras(x, dMenosDetras) + ".");
+
         System.out.println("Calculadora de potencias");
         System.out.print("Introduzca un numero entero como base: ");
         int base = s.nextInt();
@@ -49,15 +69,16 @@ public class Tema08Ejercicios1a14 {
 
         System.out.println("El resultado de la potencia es "
                 + Varios.potencia(base, exponente) + ".");
-
-        System.out.println("Posicion de digitos");
-        System.out.print("Introduzca un numero: ");
-        int num = s.nextInt();
-        System.out.print("Introduzca la posicion del numero que busca: ");
-        int posicion = s.nextInt();
-
         
-
+        System.out.println("Junta numeros");
+        System.out.print("Introduzca el primer numero: ");
+        int x1 = s.nextInt();
+        System.out.print("Introduzca el segundo numero: ");
+        int x2 = s.nextInt();
+        
+        System.out.println("El numero que surge de combinar el numero " + x1 + 
+                " y el numero " + x2 + " es el numero " 
+                + Varios.juntaNumeros(x1, x2) + ".");
     }
 
 }

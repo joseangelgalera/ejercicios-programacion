@@ -68,7 +68,7 @@ public class Varios {
      * @param exponente un número entero positivo como exponente.
      * @return con el resultado de la potencia.
      */
-    public static double potencia(int base, int exponente) {
+    public static long potencia(int base, int exponente) {
         if (exponente == 0) {
             return 1;
         }
@@ -114,7 +114,7 @@ public class Varios {
      * @param x un número entero positivo.
      * @return <code>voltea</code> el numero volteado.
      */
-    public static long voltea(int x) {
+    public static int voltea(int x) {
         if (x < 0) {
             return -voltea(-x);
         }
@@ -135,6 +135,61 @@ public class Varios {
      *
      * @param num un número entero positivo.
      * @param posicion una posicion en el numero.
-     * @return <code>voltea</code> el numero volteado.
+     * @return <code></code> el numero que esta en la posicion introducida.
      */
+    public static int digitoN(int x, int posicion) {
+        x = voltea(x);
+
+        while (posicion-- > 1) {
+            x = x / 10;
+        }
+
+        return (int) x % 10;
+    }
+
+    /**
+     * posicionDeDigito: Da la posición de la primera ocurrencia de un dígito
+     * dentro de un número entero. Si no se encuentra, devuelve -1.
+     *
+     * @param x un numero entero.
+     * @param n digito que se busca.
+     * @return la posición de la primera ocurrencia del dígito,si no se
+     * encuentra, devuelve -1.
+     */
+    public static int posicionDeDigito(int x, int n) {
+        int i;
+
+        for (i = 1; (i < digitos(x)) && (digitoN(x, i) != n); i++) {
+        }
+
+        if (i == digitos(x)) {
+            return -1;
+        } else {
+            return i;
+        }
+    }
+    
+    /**
+     * quitaPorDetras: Le quita a un número n dígitos por detrás (por la
+     * derecha).
+     *
+     * @param x un numero entero.
+     * @param dMenosDetras cuantos digitos se quitan por detras.
+     * @return el numero sin los digitos que se le han quitado por detras.
+     */
+    public static int quitaPorDetras(int x, int dMenosDetras){
+        return x / (int)potencia(10, dMenosDetras);
+    }
+    
+    /**
+     * juntaNumeros: Pega dos números para formar uno.
+     *
+     * @param x1 un numero entero.
+     * @param x2 el segundo numero entero.
+     * @return el numero que surge de combinar los dos numeros.
+     */
+    
+    public static long juntaNumeros(int x1, int x2) {
+    return (long)(x1 * potencia(10, digitos(x1))) + x2;
+  }
 }
