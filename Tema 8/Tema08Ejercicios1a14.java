@@ -1,7 +1,11 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Tema 8
+ *
+ * Ejercicios 1-14
+ * 
+ * Crea una biblioteca de funciones matemáticas que contenga las siguientes
+ * funciones. Recuerda que puedes usar unas dentro de otras si es necesario.
+ * 
  */
 package tema08ejercicios1a14;
 
