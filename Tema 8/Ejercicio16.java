@@ -6,6 +6,7 @@
  * Muestra los números capicúa que hay entre 1 y 99999.
  * 
  */
+package tema08ejercicios1a14;
 
 import tema08ejercicios1a14.matematicas.Varios;
 

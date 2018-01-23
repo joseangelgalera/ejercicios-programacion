@@ -133,14 +133,14 @@ public class Varios {
      * digitoN: Devuelve el dígito que está en la posición n de un número
      * entero. Se empieza contando por el 0 y de izquierda a derecha.
      *
-     * @param num un número entero positivo.
+     * @param x un número entero positivo.
      * @param posicion una posicion en el numero.
      * @return <code></code> el numero que esta en la posicion introducida.
      */
     public static int digitoN(int x, int posicion) {
         x = voltea(x);
 
-        while (posicion-- > 1) {
+        for(int i = 0; i < posicion; i++) {
             x = x / 10;
         }
 

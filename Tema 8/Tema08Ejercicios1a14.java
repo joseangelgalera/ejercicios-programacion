@@ -96,12 +96,12 @@ public class Tema08Ejercicios1a14 {
         System.out.println("Trozo de numero");
         System.out.print("Introduzca un numero entero: ");
         int numero = s.nextInt();
-        System.out.print("Intrduzca el digito que sera el incio del numero: ");
+        System.out.print("Intrduzca la posicion de inicio del numero: ");
         int inicio = s.nextInt();
-        System.out.print("Introduzca el digito que sera el final del numero: ");
+        System.out.print("Introduzca la posicion del final del numero: ");
         int fin = s.nextInt();
 
-        System.out.print("Si el numero empieza por " + inicio + " y termina"
+        System.out.println("Si el numero empieza por " + inicio + " y termina"
                 + " por " + fin + " el numero resultante"
                 + " es " + Varios.trozoDeNumero(numero, inicio, fin) + ".");
 
