@@ -12,9 +12,9 @@ package tema.pkg9;
 public class PruebaCaballo {
 
     public static void main(String[] args) {
-        
+
         Caballo rocinante = new Caballo("macho", "andaluz", "marron", 8, 1234);
-        
+
         System.out.println("Rocinate es un " + rocinante.getSexo());
         System.out.println("De raza " + rocinante.getRaza());
         System.out.println("El color de su pelaje es"
@@ -29,5 +29,5 @@ public class PruebaCaballo {
         System.out.println("Es hora de dormir");
         rocinante.dormir();
     }
-    
+
 }

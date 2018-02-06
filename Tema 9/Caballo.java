@@ -10,31 +10,31 @@
 package tema.pkg9;
 
 public class Caballo {
-    
+
     private String sexo;
     private String raza;
     private String colorDePelaje;
     private int edad;
     private int numeroDeIdentificacion;
 
-    
-   Caballo () { }
-   
-   Caballo (String s, String r, String c, int e, int n){
-       this.sexo = s;
-       this.raza = r;
-       this.colorDePelaje = c;
-       this.edad = e;
-       this.numeroDeIdentificacion = n;
-   } 
-   
-   String getSexo(){
-       return this.sexo;
-   }
-   
-   String getRaza(){
-       return this.raza;
-   }
+    Caballo() {
+    }
+
+    Caballo(String s, String r, String c, int e, int n) {
+        this.sexo = s;
+        this.raza = r;
+        this.colorDePelaje = c;
+        this.edad = e;
+        this.numeroDeIdentificacion = n;
+    }
+
+    String getSexo() {
+        return this.sexo;
+    }
+
+    String getRaza() {
+        return this.raza;
+    }
 
     public String getColorDePelaje() {
         return colorDePelaje;
@@ -48,21 +48,16 @@ public class Caballo {
         return numeroDeIdentificacion;
     }
 
-    public void comer(){
-        System.out.println("Hmmmm"); 
+    public void comer() {
+        System.out.println("Hmmmm");
     }
-    
-    public void relinchar(){
+
+    public void relinchar() {
         System.out.println("iiiihhhh");
     }
-    
-    public void dormir(){
+
+    public void dormir() {
         System.out.println("zzzzzzz");
     }
-    
-    
-    
-    
-    
-    
+
 }
