@@ -12,21 +12,16 @@
 
 package tema.pkg9;
 
-public class Gato extends Mamifero {
+public class Ave extends Animal{
     
-    public void araña(){
-        System.out.print("zasss");
+    public void piar(){
+        System.out.println("pipipipi");
     }
     
-    public void ronronea(){
-        System.out.println("purrrr");
+    public void construirNido(){
+        System.out.println("***********");
+        System.out.println(" ********* ");
+        System.out.println("  ******  ");
+        System.out.println("   ****  ");
     }
-    
- 
-    
-    
-    
-    
 }
-
-    
