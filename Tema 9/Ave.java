@@ -24,4 +24,8 @@ public class Ave extends Animal{
         System.out.println("  ******  ");
         System.out.println("   ****  ");
     }
+    
+    public void empollar(){
+        
+    }
 }

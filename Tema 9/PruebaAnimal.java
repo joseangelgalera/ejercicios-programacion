@@ -9,28 +9,16 @@
  * programa en el que se instancien objetos y se les apliquen métodos.
  *
  */
-
 package tema.pkg9;
 
-public class Gato extends Mamifero {
-    
-    public void araña(){
-        System.out.print("zasss");
+
+public class PruebaAnimal {
+
+    public static void main(String[] args) {
+        
+        Perro toby = new Perro();
+        toby.buscarPelota();
+        
     }
-    
-    public void ronronea(){
-        System.out.println("purrrr");
-    }
-    
-    public void maullar(){
-        System.out.println("Miau");
-    }
-    
-    
-    
-    
-    
     
 }
-
-    

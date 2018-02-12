@@ -18,21 +18,27 @@ public class Perro extends Mamifero {
     }
 
     /**
-     * 
-     * Hace que el perro busque una pelota en caso de que no la encunetre el 
+     *
+     * Hace que el perro busque una pelota en caso de que no la encunetre el
      * dueño va a por ella.
-     * 
+     *
      */
+    
     public void buscarPelota() {
         int pelota = ((int) (Math.random() * 10 + 1));
 
-        if (pelota > 7) {
+        if (pelota > 5) {
             System.out.println("Buen chico");
 
         } else {
             System.out.println("Ya voy a buscarla yo");
-
         }
+    }
+    
+    public void excarvar() {
+        System.out.println("*      *");
+        System.out.println("**    **");
+        System.out.println("********");
     }
 
 }

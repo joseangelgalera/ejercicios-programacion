@@ -49,15 +49,16 @@ public class Animal {
         return identificacion;
     }
     
-    public void comer(String comida){
-        if ((comida.equals("pescado")) && (class == Gato)){
-        
-    }
+    public void comer(){
         System.out.print("mmmmm");
     }
     
     public void dormir(){
         System.out.print("zzzzz");
+    }
+    
+    public void beber(){
+        System.out.println("Glup,Glup");
     }
     
     
