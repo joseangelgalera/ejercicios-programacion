@@ -17,8 +17,7 @@ public class Caballo {
     private int edad;
     private int numeroDeIdentificacion;
 
-    Caballo() {
-    }
+    Caballo() {}
 
     Caballo(String s, String r, String c, int e, int n) {
         this.sexo = s;
