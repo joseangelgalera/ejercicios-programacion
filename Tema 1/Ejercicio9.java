@@ -14,9 +14,7 @@ public class Ejercicio9 {
         String rojo = "\033[31m";
         String verde = "\033[32m";
         String naranja = "\033[33m";
-        String azul = "\033[34m";
         String morado = "\033[35m";
-        String cyan = "\033[36m";
         String blanco = "\033[37m";
         
         System.out.println(blanco + "**********" + rojo +"@@@@" + blanco 
