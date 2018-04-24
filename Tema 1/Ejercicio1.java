@@ -1,6 +1,7 @@
 /*
- * Escribe una programa que muestre tu nombre por pantalla.
+ * Ejercicio 1
  *
+ * Escribe una programa que muestre tu nombre por pantalla.
  */
 package tema.pkg1;
 

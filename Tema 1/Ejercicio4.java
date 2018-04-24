@@ -2,7 +2,6 @@
  * Ejercicio 4
  * 
  * Escribe un programa que muestre tu horario de clase.
- *
  */
 package tema.pkg1;
 
