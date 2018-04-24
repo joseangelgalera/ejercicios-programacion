@@ -26,33 +26,45 @@ public class Ejercicio5 {
                 + "---------|-----------------------|-----------------------|--"
                 + "---------------------");
         System.out.printf("%-10s %-1s %-26s %-1s %-21s %-1s %-26s %-1s %-26s "
-                + "%-1s %-21s\n", "08:15/09:15", "|" + rojo, "Progamación" + blanco, "|" + naranja, 
-                "Sistemas Informáticos" + blanco, "|" + rojo, "Progamación" + blanco, "|" + morado, 
-                "Proyecto Integrado" + blanco, "|" + naranja, "Sistemas Informáticos" + blanco);
+                + "%-1s %-21s\n", "08:15/09:15", "|" + rojo, "Progamación" 
+                        + blanco, "|" + naranja, "Sistemas Informáticos" 
+                        + blanco, "|" + rojo, "Progamación" + blanco, "|" 
+                        + morado, "Proyecto Integrado" + blanco, "|" + naranja, 
+                        "Sistemas Informáticos" + blanco);
         System.out.printf("%-10s %-1s %-26s %-1s %-21s %-1s %-26s %-1s %-26s "
-                + "%-1s %-21s\n", "08:15/09:15", "|" + rojo, "Progamación" + blanco, "|" + naranja, 
-                "Sistemas Informáticos" + blanco, "|" + rojo, "Progamación" + blanco, "|" + morado, 
-                "Proyecto Integrado" + blanco, "|" + naranja, "Sistemas Informáticos" + blanco);
+                + "%-1s %-21s\n", "08:15/09:15", "|" + rojo, "Progamación" 
+                        + blanco, "|" + naranja, "Sistemas Informáticos" 
+                        + blanco, "|" + rojo, "Progamación" + blanco, "|" 
+                        + morado, "Proyecto Integrado" + blanco, "|" + naranja, 
+                        "Sistemas Informáticos" + blanco);
         System.out.printf("%-10s %-1s %-26s %-1s %-21s %-1s %-26s %-1s %-26s "
-                + "%-1s %-21s\n", "08:15/09:15", "|" + rojo, "Progamación" + blanco, "|" + naranja, 
-                "Sistemas Informáticos" + blanco, "|" + rojo, "Progamación" + blanco, "|" + morado, 
-                "Proyecto Integrado" + blanco, "|" + naranja, "Sistemas Informáticos" + blanco);
+                + "%-1s %-21s\n", "08:15/09:15", "|" + rojo, "Progamación" 
+                        + blanco, "|" + naranja, "Sistemas Informáticos" 
+                        + blanco, "|" + rojo, "Progamación" + blanco, "|" 
+                        + morado, "Proyecto Integrado" + blanco, "|" + naranja, 
+                        "Sistemas Informáticos" + blanco);
         System.out.printf("%-10s %-1s %-26s %-1s %-26s %-1s %-26s %-1s %-26s "
-                + "%-1s %-21s\n", "11:15/11:45", "|" + verde, "Recreo" + blanco, "|" + verde, 
-                "Recreo" + blanco, "|" + verde, "Recreo" + blanco, "|" + verde, 
-                "Recreo" + blanco, "|" + verde, "Recreo" + blanco);
+                + "%-1s %-21s\n", "11:15/11:45", "|" + verde, "Recreo" + blanco,
+                "|" + verde, "Recreo" + blanco, "|" + verde, "Recreo" + blanco, 
+                "|" + verde, "Recreo" + blanco, "|" + verde, "Recreo" + blanco);
         System.out.printf("%-10s %-1s %-26s %-1s %-26s %-1s %-26s %-1s %-26s "
-                + "%-1s %-21s\n", "11:45/12:45", "|" + azul, "Bases de Datos" + blanco, "|" + cyan, 
-                "Lenguaje de Marcas" + blanco, "|" + azul, "Bases de Datos" + blanco, "|" + cyan, 
-                "Lenguaje de Marcas" + blanco, "|" + rojo, "Formación y Orientación Laboral" + blanco);
+                + "%-1s %-21s\n", "11:45/12:45", "|" + azul, "Bases de Datos" 
+                + blanco, "|" + cyan, "Lenguaje de Marcas" + blanco, "|" + azul,
+                "Bases de Datos" + blanco, "|" + cyan, "Lenguaje de Marcas" 
+                + blanco, "|" + rojo, "Formación y Orientación Laboral" 
+                + blanco);
         System.out.printf("%-10s %-1s %-26s %-1s %-26s %-1s %-26s %-1s %-26s "
-                + "%-1s %-21s\n", "11:45/12:45", "|" + azul, "Bases de Datos" + blanco, "|" + cyan, 
-                "Lenguaje de Marcas" + blanco, "|" + azul, "Bases de Datos" + blanco, "|" + cyan, 
-                "Lenguaje de Marcas" + blanco, "|" + rojo, "Formación y Orientación Laboral" + blanco);
+                + "%-1s %-21s\n", "11:45/12:45", "|" + azul, "Bases de Datos" 
+                + blanco, "|" + cyan, "Lenguaje de Marcas" + blanco, "|" + azul,
+                "Bases de Datos" + blanco, "|" + cyan, "Lenguaje de Marcas" 
+                + blanco, "|" + rojo, "Formación y Orientación Laboral" 
+                + blanco);
         System.out.printf("%-10s %-1s %-26s %-1s %-26s %-1s %-26s %-1s %-26s "
-                + "%-1s %-21s\n", "11:45/12:45", "|" + azul, "Bases de Datos" + blanco, "|" + cyan, 
-                "Lenguaje de Marcas" + blanco, "|" + azul, "Bases de Datos" + blanco, "|" + cyan, 
-                "Lenguaje de Marcas" + blanco, "|" + rojo, "Formación y Orientación Laboral" + blanco);
+                + "%-1s %-21s\n", "11:45/12:45", "|" + azul, "Bases de Datos" 
+                + blanco, "|" + cyan, 
+                "Lenguaje de Marcas" + blanco, "|" + azul, "Bases de Datos" 
+                + blanco, "|" + cyan, "Lenguaje de Marcas" + blanco, "|" 
+                + rojo, "Formación y Orientación Laboral" + blanco);
     }
     
 }
