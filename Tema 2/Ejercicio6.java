@@ -13,12 +13,14 @@ public class Ejercicio6 {
 
     public static void main(String[] args) {
         
-        double baseImponible = 49.99;
+        double baseImponible = 23.44;
 
-        System.out.printf("Base imponible %8.2f\n", baseImponible);
-        System.out.printf("IVA            %8.2f\n", (baseImponible * 0.21));
-        System.out.printf("-----------------------\n");
-        System.out.printf("Total          %8.2f\n", (baseImponible * 1.21));
+        System.out.printf("\n%-15s %-1s %-15s %-1s %-15s\n"
+                ,"Base Imponible", "|", "IVA", "|", "Total");
+        System.out.println("----------------|-----------------|--------------");
+        System.out.printf("%-3.2f %-9s %-1s %-3.2f %-10s %-1s %-3.2f %-2s\n",
+        +  baseImponible, "€", "|", (baseImponible * 0.21), "€", "|" , 
+        (baseImponible * 1.21), "€");
     }
     
 }
