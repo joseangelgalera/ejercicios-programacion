@@ -1,4 +1,6 @@
 /*
+ * Tema 1 
+ *
  * Ejercicio 2
  *
  * Modifica el programa anterior para que además se muestre tu dirección y
@@ -11,8 +13,8 @@ public class Ejercicio2 {
 
     public static void main(String[] args) {
         System.out.println("José Ángel");
-        System.out.println("C/Moral nº 14");
-        System.out.println("687349704");
+        System.out.println("C/Moral nº");
+        System.out.println("685359704");
     }
     
 }
