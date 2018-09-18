@@ -7,7 +7,7 @@
  */
 package tema.pkg1;
 
-public class Ejercicio3 {
+public class Ejercicio03 {
 
     public static void main(String[] args) {
         System.out.printf("%-10s  %-10s\n", "Palabra", "Traduccción");

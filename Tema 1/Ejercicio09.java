@@ -8,7 +8,7 @@
  */
 package tema.pkg1;
 
-public class Ejercicio9 {
+public class Ejercicio09 {
 
     public static void main(String[] args) {
         String rojo = "\033[31m";
