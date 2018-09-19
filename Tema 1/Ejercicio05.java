@@ -33,14 +33,14 @@ public class Ejercicio05 {
                 + morado, "Progamación" + blanco, "|"
                 + naranja, "Sistemas Informáticos" + blanco);
         System.out.printf("%-10s %-1s %-27s %-1s %-21s %-1s %-26s %-1s %-27s "
-                + "%-1s %-21s\n", "08:15/09:15", "|" 
+                + "%-1s %-21s\n", "09:15/10:15", "|" 
                 + rojo, "Lenguaje de Marcas" 
                 + blanco, "|" + naranja, "Sistemas Informáticos" 
                 + blanco, "|" + rojo, "Progamación" + blanco, "|" 
                 + morado, "Progamación" + blanco, "|" 
                 + naranja, "Sistemas Informáticos" + blanco);
         System.out.printf("%-10s %-1s %-27s %-1s %-21s %-1s %-26s %-1s %-27s "
-                + "%-1s %-21s\n", "08:15/09:15", "|" 
+                + "%-1s %-21s\n", "10:15/11:15", "|" 
                 + rojo,"Lenguaje de Marcas" + blanco, "|" 
                 + naranja, "Sistemas Informáticos" + blanco, "|" 
                 + rojo, "Progamación" + blanco, "|" + morado, "Progamación" 
@@ -56,13 +56,13 @@ public class Ejercicio05 {
                 + blanco, "|" + rojo, "Formación y Orientación Laboral" 
                 + blanco);
         System.out.printf("%-10s %-1s %-27s %-1s %-26s %-1s %-26s %-1s %-27s "
-                + "%-1s %-21s\n", "11:45/12:45", "|" + azul, "Bases de Datos" 
+                + "%-1s %-21s\n", "12:45/13:45", "|" + azul, "Bases de Datos" 
                 + blanco, "|" + cyan, "Progamación" + blanco, "|" + azul,
                 "Bases de Datos" + blanco, "|" + cyan, "Lenguaje de Marcas" 
                 + blanco, "|" + rojo, "Formación y Orientación Laboral" 
                 + blanco);
         System.out.printf("%-10s %-1s %-27s %-1s %-26s %-1s %-26s %-1s %-27s "
-                + "%-1s %-21s\n", "11:45/12:45", "|" + azul, "Bases de Datos" 
+                + "%-1s %-21s\n", "13:45/14:45", "|" + azul, "Bases de Datos" 
                 + blanco, "|" + cyan, 
                 "Progamación" + blanco, "|" + azul, "Bases de Datos" 
                 + blanco, "|" + cyan, "Lenguaje de Marcas" + blanco, "|" 
