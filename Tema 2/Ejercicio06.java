@@ -9,7 +9,7 @@
  */
 package tema.pkg2;
 
-public class Ejercicio6 {
+public class Ejercici06 {
 
     public static void main(String[] args) {
         

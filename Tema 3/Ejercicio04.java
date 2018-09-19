@@ -10,7 +10,7 @@ package tema.pkg3;
 
 import java.util.Scanner;
 
-public class Ejercicio4 {
+public class Ejercicio04 {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

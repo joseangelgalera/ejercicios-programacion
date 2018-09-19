@@ -8,7 +8,7 @@
  */
 package tema.pkg2;
 
-public class Ejercicio5 {
+public class Ejercicio05 {
 
     public static void main(String[] args) {
        double pesetas = 5 ;
