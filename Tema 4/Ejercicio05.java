@@ -20,10 +20,18 @@ public class Ejercicio05 {
     System.out.print("Introduce b: ");
     int b = s.nextInt();
     
-    double x = ((double)-b/a);
+    if (a == 0){
+      System.out.print("La ecuación no tiene solución.");
+    }
     
-    System.out.print("x = " + x);
-  
-}
-  
+    if (b == 0){
+      System.out.print("x = 0");
+    }
+    
+    if (!(a == 0) && !(b == 0)){
+      double x = ((double)-b/a);
+    
+      System.out.print("x = " + x);
+    } 
+  }
 }
