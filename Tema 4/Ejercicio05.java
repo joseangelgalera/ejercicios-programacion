@@ -15,12 +15,12 @@ public class Ejercicio05 {
     
     System.out.println("Calculadora de ecucaciones de primer grado ax + b = 0");
     System.out.print("Introduce a: ");
-    double a = s.nextInt();
+    int a = s.nextInt();
             
     System.out.print("Introduce b: ");
-    double b = s.nextInt();
+    int b = s.nextInt();
     
-    double x = (-b/a);
+    double x = ((double)-b/a);
     
     System.out.print("x = " + x);
   
