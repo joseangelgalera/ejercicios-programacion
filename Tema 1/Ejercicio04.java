@@ -25,8 +25,8 @@ public class Ejercicio04 {
                 "Progamación", "|", "Sistemas Informáticos");
         System.out.printf("%-10s %-1s %-22s %-1s %-21s %-1s %-21s %-1s %-22s "
                 + "%-1s %-21s\n", "10:15/11:15", "|", "Lenguaje de Marcas", "|", 
-                "Sistemas Informáticos", "|", "Progamación", "|", 
-                "Progamación", "|", "Sistemas Informáticos");
+                "Sistemas Informáticos", "|", "Programación", "|", 
+                "Entornos de Desarrollo", "|", "Sistemas Informáticos");
         System.out.printf("%-10s %-1s %-22s %-1s %-21s %-1s %-21s %-1s %-22s "
                 + "%-1s %-21s\n", "11:15/11:45", "|", "Recreo", "|", 
                 "Recreo", "|", "Recreo", "|", 
@@ -45,5 +45,4 @@ public class Ejercicio04 {
                 "Progamación", "|", "Bases de Datos", "|", 
                 "Lenguaje de Marcas", "|", "Formación y Orientación Laboral");
     }
-    
 }

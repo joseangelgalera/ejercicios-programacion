@@ -43,7 +43,8 @@ public class Ejercicio05 {
                 + "%-1s %-21s\n", "10:15/11:15", "|" 
                 + rojo,"Lenguaje de Marcas" + blanco, "|" 
                 + naranja, "Sistemas Informáticos" + blanco, "|" 
-                + rojo, "Progamación" + blanco, "|" + morado, "Progamación" 
+                + rojo, "Progamación" + blanco, "|" 
+                + morado, "Entornos de Desarrollo" 
                 + blanco, "|" + naranja, "Sistemas Informáticos" + blanco);
         System.out.printf("%-10s %-1s %-27s %-1s %-26s %-1s %-26s %-1s %-27s "
                 + "%-1s %-21s\n", "11:15/11:45", "|" + verde, "Recreo" + blanco,
