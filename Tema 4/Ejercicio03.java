@@ -1,11 +1,15 @@
 /*
+ * Tema 4
+ *
+ * Ejercicio 3
+ *
  * Escribe un programa en que dado un número del 1 a 7 escriba el 
  * correspondiente nombre del día de la semana.
  */
 package tema.pkg4;
 import java.util.Scanner;
 
-public class Ejercicio3 {
+public class Ejercicio03 {
   public static void main (String[] args){
     Scanner s = new Scanner(System.in);
     
