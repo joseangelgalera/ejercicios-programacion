@@ -23,7 +23,11 @@ public class Ejercicio18 {
       x = s.nextInt();
     }
     
-    if ( x < 100){
+    if (x < 10){
+      System.out.print("El primer numero es " + x + ".");
+    }
+    
+    if ((x >= 10) && ( x < 100)){
       ultimo = ((x / 10) - (x % 10) / 10);
       
       System.out.print("El primer numero es: " + ultimo + ".");
