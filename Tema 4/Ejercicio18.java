@@ -33,7 +33,7 @@ public class Ejercicio18 {
       System.out.print("El primer numero es: " + primer + ".");
     }
     
-    if (( x >= 100) &&( x < 1000)){
+    if (( x >= 100) && ( x < 1000)){
       primer = ((x / 100) - (x % 10) / 100);
       
       System.out.print("El primer numero es: " + primer + ".");
