@@ -13,11 +13,11 @@ public class Ejercicio19 {
   public static void main (String[]args){
     Scanner s = new Scanner(System.in);
     
-    System.out.print("Introduce un número: ");
+    System.out.print("Introduce un número que tenga 5 cifra como maximo: ");
     int x = s.nextInt();
     
     while ((x > 100000) || (x < -100000)){
-      System.out.print("Introduce un número que tenga menos de 5 cifras: ");
+      System.out.print("Introduce un número que tenga 5 cifras como maximo: ");
       x = s.nextInt();
     }
     

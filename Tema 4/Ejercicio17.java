@@ -17,6 +17,6 @@ public class Ejercicio17 {
     int x = s.nextInt();
     int ultimo = x % 10;
     
-    System.out.print("El ultimo numero es " + ultimo + ".");
+    System.out.print("El ultimo número es " + ultimo + ".");
   }
 }

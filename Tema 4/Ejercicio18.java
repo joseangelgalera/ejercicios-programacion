@@ -19,7 +19,7 @@ public class Ejercicio18 {
     int ultimo;
     
     while (x > 100000){
-      System.out.print("Introduce un número que tenga menos de 5 cifras: ");
+      System.out.print("Introduce un número que tenga como maximo 5 cifras: ");
       x = s.nextInt();
     }
     
