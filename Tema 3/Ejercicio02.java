@@ -20,7 +20,8 @@ public class Ejercicio02 {
         System.out.print("introduce los euros: ");
         int euros = s.nextInt();
         
-        System.out.println(euros + " son " + (euros * 166) + " pesetas.");
+        System.out.println(euros + " son " + (int)(euros * 166.386) 
+          + " pesetas.");
         
         
     }
