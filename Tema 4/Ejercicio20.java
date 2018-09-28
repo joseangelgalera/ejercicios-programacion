@@ -51,7 +51,7 @@ public class Ejercicio20 {
       int ultimo = x % 100;
       
       while (ultimo > 0){
-        gira = (gira * 10) + (ultimo % 10 );
+        gira = (gira * 10) + (ultimo % 10);
         ultimo /= 10;
       }
       
@@ -69,7 +69,7 @@ public class Ejercicio20 {
       int ultimo = x % 100;
       
       while (ultimo > 0){
-        gira = (gira * 10) + (ultimo % 10 );
+        gira = (gira * 10) + (ultimo % 10);
         ultimo /= 10;
       }
       
