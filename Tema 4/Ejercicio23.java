@@ -32,13 +32,13 @@ public class Ejercicio23 {
     double base = s.nextDouble();
     
     System.out.print("Introduzca el tipo de IVA (general, reducido o "
-            + "supereducido): ");
+            + "superreducido): ");
     String codIva = s.next();
     
     while ((!codIva.equals("general") && (!codIva.equals("reducido") && 
-          (!codIva.equals("supereducido"))))){
+          (!codIva.equals("superreducido"))))){
       System.out.print("Introduzca un tipo de IVA correcto "
-              + "(general, reducido, supereducido): ");
+              + "(general, reducido, superreducido): ");
       codIva = s.next();
     }
     
@@ -68,7 +68,7 @@ public class Ejercicio23 {
       System.out.printf("%-20s %10.2f€ %n", "IVA (10%)", iva);
       System.out.printf("%-20s %10.2f€ %n", "Precio con IVA", base);
       break;
-      case "supereducido":
+      case "superreducido":
       iva = base * 0.04;
       base = base + iva;
       System.out.printf("%-20s %10.2f€ %n", "IVA (4%)", iva);
