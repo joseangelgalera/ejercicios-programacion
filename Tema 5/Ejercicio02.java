@@ -7,7 +7,6 @@
  */
 package tema.pkg5;
 
-
 public class Ejercicio02 {
   public static void main (String[]args){
     int i = 0;
