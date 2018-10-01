@@ -30,7 +30,8 @@ public class Ejercicio07 {
         i -= 4;
       } else {
         if (i > 3) {
-          System.out.println("Lo siento, esa no es la combinación.");
+          System.out.println("Lo siento, esa no es la combinación le quedan " 
+                  + (i - 1) + " intentos.");
           i--;
         }
       }
@@ -48,13 +49,33 @@ public class Ejercicio07 {
         System.out.println("La caja fuerte se ha abierto satisfactoriamente.");
         i -= 4;
       } else {
+        if (i > 2) {
+          System.out.println("Lo siento, esa no es la combinación le quedan " 
+                  + (i - 1) + " intentos.");
+          i--;
+          System.out.print("Introduzca de nuevo el codigo de apertura: ");
+           codigo = s.nextInt();
+           
+          while (codigo > 9999) {
+            System.out.print("El cofigo esta formado por 4 cifras introduzcalo "
+                    + "de nuevo: ");
+            codigo = s.nextInt();
+          }
+          
+          if (codigo == correcto) {
+            System.out.println("La caja fuerte se ha abierto "
+                    + "satisfactoriamente.");
+            i -= 4;
+          }
+        }    
         if (i > 1) {
-          System.out.println("Lo siento, esa no es la combinación.");
+          System.out.println("Lo siento, esa no es la combinación le queda " 
+                  + (i - 1) + " intento.");
           i--;
         } else {
           i--;
           if (i == 0) {
-          System.out.print("Caja fuerte bloqueada.");
+          System.out.println("Caja fuerte bloqueada.");
           }
         }
       }
