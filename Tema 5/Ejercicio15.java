@@ -37,7 +37,7 @@ public class Ejercicio15 {
         j++;
       }
 
-      System.out.println(base + "^" + i + " = "
+      System.out.println(base + " ^ " + i + " = "
               + potencia);
 
       i++;
