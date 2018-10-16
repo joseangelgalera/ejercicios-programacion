@@ -16,38 +16,38 @@ public class Ejercicio02 {
 
   public static void main(String[] args) {
     int naipe = ((int) (Math.random() * 13 + 1));
-    if (naipe == 1){
-      System.out.print ("A");
-    } else if (naipe == 11){
-      System.out.print ("J");
-    } else if (naipe == 12){
-      System.out.print ("Q");
-    } else if (naipe == 13){
-      System.out.print ("K");
+    if (naipe == 1) {
+      System.out.print("A");
+    } else if (naipe == 11) {
+      System.out.print("J");
+    } else if (naipe == 12) {
+      System.out.print("Q");
+    } else if (naipe == 13) {
+      System.out.print("K");
     } else {
-      System.out.print (naipe);
+      System.out.print(naipe);
     }
-    
-    int palo = ((int)(Math.random() * 4));
-    
+
+    int palo = ((int) (Math.random() * 4));
+
     String paloCarta = "";
-    
+
     switch (palo) {
-      case 0 :
+      case 0:
         paloCarta = "picas";
         break;
-      case 1 :
+      case 1:
         paloCarta = "corazones";
         break;
-      case 2 :
+      case 2:
         paloCarta = "diamantes";
         break;
-      case 3 :
+      case 3:
         paloCarta = "tréboles";
         break;
     }
-    
-    System.out.print ( " de " + paloCarta + ".");
+
+    System.out.print(" de " + paloCarta + ".");
     System.out.println();
   }
 }
