@@ -40,11 +40,13 @@ public class Ejercicio06 {
         System.out.print("Te quedan " + oportunidades + " oportunidades,");
 
         if (x > numero) {
-          System.out.print(" el número es mayor que el número secreto: ");
+          System.out.print(" el número introducido es mayor que el número "
+                  + "secreto: ");
         }
 
         if (x < numero) {
-          System.out.print(" el número es menor que el número secreto: ");
+          System.out.print(" el número introducido es menor que el número "
+                  + "secreto: ");
         }
         oportunidades--;
         x = s.nextInt();
@@ -64,11 +66,13 @@ public class Ejercicio06 {
             System.out.print("Te queda " + oportunidades
                     + " oportunidad,");
             if (x > numero) {
-              System.out.print(" el número es mayor que el número secreto: ");
+              System.out.print(" el número introducido es mayor que el número "
+                      + "secreto: ");
             }
 
             if (x < numero) {
-              System.out.print(" el número es menor que el número secreto: ");
+              System.out.print(" el número introducido es menor que el número "
+                      + "secreto: ");
             }
             oportunidades--;
             x = s.nextInt();
@@ -76,12 +80,11 @@ public class Ejercicio06 {
               System.out.print("Solo puedes introducir un número mayor que 0 o "
                       + "menor que 100: ");
               x = s.nextInt();
-
-              if (oportunidades == 0) {
-                System.out.print("Lo siento no lo has adivinado era el número "
-                        + numero + ".");
-                System.out.println();
-              }
+            }
+            if (oportunidades == 0) {
+              System.out.print("Lo siento no lo has adivinado era el número "
+                      + numero + ".");
+              System.out.println();
             }
           }
         }
