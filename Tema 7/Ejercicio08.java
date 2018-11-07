@@ -19,7 +19,8 @@ public class Ejercicio08 {
     System.out.println("Introduce la temperatura del año. ");
     int[] temperatura = new int[12];
     int min = 10;
-    String[] mes = {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"};
+    String[] mes = {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", 
+      "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"};
     String rojo = "\033[31m";
     String azul = "\033[34m";
     String negro = "\u001B[30m";
