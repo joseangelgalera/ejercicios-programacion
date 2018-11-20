@@ -28,7 +28,7 @@ public class Ejercicio08 {
     String negro = "\u001B[30m";
 
     System.out.print("Introduce la posición del alfil: ");
-    posicion = System.console().readLine();
+    posicion = s.next();
     posicion = posicion.toUpperCase();
 
     String letras[] = {"A", "B", "C", "D", "E", "F", "G", "H"};
@@ -40,8 +40,7 @@ public class Ejercicio08 {
         tablero[j][i] = letras[i] + numeros[j];
       }
     }
-
-    // Calcula la posicion en el array
+    
     int fila = 0;
     int columna = 0;
     boolean existe = false;
