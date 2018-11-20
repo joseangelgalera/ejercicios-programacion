@@ -11,6 +11,8 @@
  */
 package tema.pkg7b;
 
+import java.util.Scanner;
+
 public class Ejercicio07 {
   static final int VACIO = 0;
   static final int MINA = 1;
@@ -18,7 +20,7 @@ public class Ejercicio07 {
   static final int INTENTO = 3;
 
   public static void main (String[] args) {
-
+    Scanner s = new Scanner(System.in);
     int x;
     int y;
     int[][] cuadrante = new int[5][4];
@@ -45,7 +47,6 @@ public class Ejercicio07 {
     String c = "";
 
     do {
-      // pinta el cuadrante
       for(y = 3; y >= 0; y--) {
         System.out.print(y + "|");
         for(x = 0; x < 5; x++) {
@@ -58,11 +59,10 @@ public class Ejercicio07 {
       }
       System.out.println(" ----------\n  0 1 2 3 4\n");
 
-      // pide las coordenadas
       System.out.print("Coordenada x: ");
-      x = Integer.parseInt(System.console().readLine());
+      x = s.nextInt();
       System.out.print("Coordenada y: ");
-      y = Integer.parseInt(System.console().readLine());
+      y = s.nextInt();
 
       // mira lo que hay en las coordenadas indicadas por el usuario
       switch(cuadrante[x][y]) {
