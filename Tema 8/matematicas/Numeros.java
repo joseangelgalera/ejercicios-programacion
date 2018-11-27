@@ -5,8 +5,6 @@ package tema.pkg8;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-
 /**
  *
  * @author José Ángel
@@ -385,7 +383,8 @@ public class Numeros {
     int decimal = x;
     int digito = 0;
     String[] hexadecimal = new String[100000000]; // Máximo tamaño del array
-    String[] valores = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"};
+    String[] valores = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", 
+      "B", "C", "D", "E", "F"};
     int i = 0;
     int l = 0;
     String numHex = "";
@@ -416,7 +415,8 @@ public class Numeros {
    */
   public static int hexadecimalADecimal(String num) {
 
-    String[] valores = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"};
+    String[] valores = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", 
+      "B", "C", "D", "E", "F"};
     int decimal = 0;
     int x = 0;
     char digito = 'g';
