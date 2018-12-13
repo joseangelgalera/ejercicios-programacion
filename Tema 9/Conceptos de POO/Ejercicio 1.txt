@@ -1,0 +1,4 @@
+¿Cuáles serían los atributos de la clase PilotoDeFormula1? ¿Se te ocurren algunas
+instancias de esta clase?
+Atributos:nombre, apellidos, edad, escuderia, modeloDelVehiculo, carrerasJugadas, campeonatosGanados numeroDeVictorias, nacionalidad.
+Instancias:fernandoAlonso, michaelSchumacher, lewisHamilton, carlosSainz sebastianVettel...
