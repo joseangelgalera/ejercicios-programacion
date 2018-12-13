@@ -1,0 +1,7 @@
+¿Cuáles serían los atributos de la clase Ventana (de ordenador)? ¿cuáles serían
+los métodos? Piensa en las propiedades y en el comportamiento de una
+ventana de cualquier programa.
+
+Atributos: resolucion, numerodeBotones, funcion, tamañoDeLosIconos, tipoDeOrden.
+
+Metodos: minimizar, aplicar, cerrar.  
