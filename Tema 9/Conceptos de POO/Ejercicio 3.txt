@@ -1,0 +1,4 @@
+¿Cuáles serían los atributos de la clase Vivienda? ¿Qué subclases se te ocurren?
+
+Atributos: calle, ciudad, barrio, tamaño, pisos, colorFachada, numeroDePlazasGaraje, jardin, numeroDeVentanas, catastro.
+Subclases: Duplex, Piso, Chalet, Atico, Loft.
