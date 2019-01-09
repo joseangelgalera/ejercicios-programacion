@@ -2,6 +2,6 @@
 los métodos? Piensa en las propiedades y en el comportamiento de una
 ventana de cualquier programa.
 
-Atributos: resolucion, numerodeBotones, funcion, tamañoDeLosIconos, tipoDeOrden.
+Atributos: resolucion, numerodeBotones, funcion, tamañoDeLosIconos, titulo.
 
-Metodos: minimizar, aplicar, cerrar.  
+Metodos: minimizar, maxmizar, cerrar.  
